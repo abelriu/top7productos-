@@ -20,11 +20,10 @@ jobs:
           username:   ${{ secrets.FTP_USER }}
           password:   ${{ secrets.FTP_PASS }}
           port:       21
-          local-dir:  ./Downloads/_public_html/
-          server-dir: /public_html/
-          state-name: .ftp-deploy-sync-state.json
+          local-dir:           ./Downloads/_public_html/
+          server-dir:          /public_html/
+          dangerous-clean-slate: true
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
-            .ftp-deploy-sync-state.json
