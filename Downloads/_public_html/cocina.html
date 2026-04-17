@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top7productos</title>
+    <style>
+
+    .product {
+      background: white;
+      
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0066c0;
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/7.png">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+<!-- ============================================
+     1) BARRA SUPERIOR: EMAIL + ICONOS SOCIALES
+   ============================================ -->
+<nav class="navbar bg-dark navbar-dark py-2" id="templatemo_nav_top">
+  <div class="container d-flex align-items-center">
+    <!-- EMAIL -->
+    <div class="d-flex align-items-center">
+      <i class="fas fa-envelope nav-icon-top"></i>
+      <a href="mailto:info@top7productos.com" class="nav-link-top">
+        info@top7productos.com
+      </a>
+    </div>
+    <!-- ICONOS SOCIALES ALINEADOS A LA DERECHA -->
+    <div class="ms-auto d-flex align-items-center">
+      <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f nav-icon-top"></i>
+      </a>
+      <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-instagram nav-icon-top"></i>
+      </a>
+      <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-twitter nav-icon-top"></i>
+      </a>
+      <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin nav-icon-top"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================
+     HEADER PRINCIPAL: LOGO + MENÚ COLAPSABLE + BÚSQUEDA
+   ============================================ -->
+<header id="templatemo_main_header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container header-flex d-flex align-items-center justify-content-between">
+
+      <!-- 1) LOGO (siempre visible) -->
+      <div class="logo-wrapper">
+        <a href="/" class="d-flex align-items-center">
+          <img
+            src="/assets/img/logo5.png"
+            alt="Logo Top 7 Productos"
+            class="logo-navbar"
+          />
+        </a>
+      </div>
+
+      <!-- 2) BOTÓN TOGGLER (visible en pantallas < lg) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCategories"
+        aria-controls="navbarCategories"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3) MENÚ COLAPSABLE -->
+      <div
+        class="collapse navbar-collapse w-100 justify-content-center"
+        id="navbarCategories"
+      >
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+          </li>
+          <li class="nav-item">
+            <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+          </li>
+          <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a href="buscador.html" class="nav-link nav-link-buscador fs-5">
+              <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+            </a>
+          </li>
+        </ul>
+        <!-- ÍCONO DE BÚSQUEDA DENTRO DEL COLLAPSE (solo en pantallas < lg) -->
+        <div class="d-lg-none d-flex justify-content-center mt-2">
+          <a href="#" class="nav-link">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) ÍCONO DE BÚSQUEDA (visible en pantallas ≥ lg) -->
+      <div class="search-wrapper d-none d-lg-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-search fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+    <!-- Modal -->
+<!-- … (tu modal de búsqueda se queda igual) … -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="w-100 pt-1 mb-5 text-right">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+        <button type="submit" class="input-group-text bg-success text-light">
+          <i class="fa fa-fw fa-search text-white"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- … Fin del modal de búsqueda … -->
+
+<!---------------------------------- CONTENIDO -------------------------------------------------------------------- -->
+
+<div class="container my-4">
+  <div class="row">
+    <!-- En pantallas grandes ocupa 8 columnas y se centra -->
+    <div class="col-12 col-lg-8 mx-auto">
+
+      <!-- 1) Protector de silicona para horno -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://amzn.to/452beME"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/PROTECTOR_COCINA.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Protector de silicona para horno 40x30 cm">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">1. Protector de silicona para horno 40x30 cm</h2>
+          <p class="mb-1"><strong>Marca:</strong> Lindas Essentials</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,4/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 234</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">12,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Este protector de silicona de 40x30 cm se coloca en la base del horno para recoger goteos y derrames, evitando manchas y facilitando la limpieza. Resiste hasta 260 °C, es antiadherente y reutilizable, con un grosor que protege del calor sin deformarse.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Fácil de limpiar y reutilizable – Resistente a altas temperaturas – Protege el interior del horno de salpicaduras.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Puede quedar adherido al calor intenso si no se engrasas ligeramente – Tamaño fijo que no se adapta a hornos muy pequeños – Olor inicial a silicona al primer uso.
+          </p>
+          <a href="https://amzn.to/452beME"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 1 -->
+
+      <!-- 2) Báscula de cocina digital Etekcity -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/ETEKCITY-electr%C3%B3nica-Ultrafina-Inoxidable-precisi%C3%B3n/dp/B07PTNZT75"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/BASCULA_ELEC.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Báscula de cocina digital Etekcity">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">2. Báscula de cocina digital Etekcity</h2>
+          <p class="mb-1"><strong>Marca:</strong> Etekcity</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,7/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 8 765</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">19,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Báscula digital con sensor de alta precisión que mide hasta 5 kg con incrementos de 1 g. Pantalla LCD retroiluminada, función tara, y diseño slim de acero inoxidable. Ideal para repostería y control de porciones.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Precisión de 1 g – Función de tara y apagado automático – Superficie de acero inoxidable fácil de limpiar.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Alimentación con pilas (no incluidas) – Superficie de cristal transparente susceptible a huellas – Plataforma algo pequeña para recipientes grandes.
+          </p>
+          <a href="https://www.amazon.es/ETEKCITY-electr%C3%B3nica-Ultrafina-Inoxidable-precisi%C3%B3n/dp/B07PTNZT75"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 2 -->
+
+      <!-- 3) Minipimer Braun 300 Watt -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Braun-Batidora-mano-Blanco-700/dp/B01KPT86ZQ"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/MINIPIMER300.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Minipimer Braun 300 Watt">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">3. Minipimer Braun MQ3000WH 300 W</h2>
+          <p class="mb-1"><strong>Marca:</strong> Braun</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,6/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 5 432</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">29,90 €</span></p>
+          <p class="text-secondary mb-3">
+            Batidora de mano con motor de 300 W, varilla de acero inoxidable y diseño ergonómico. Incluye accesorio picador de 500 ml y batidor de varillas, ideal para purés, sopas y salsas caseras.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Motor potente y duradero – Accesorios versátiles (picador y batidor) – Fácil de desmontar y limpiar.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Cable algo corto (1 m) – No apto para uso continuo prolongado – Sin control de velocidad variable.
+          </p>
+          <a href="https://www.amazon.es/Braun-Batidora-mano-Blanco-700/dp/B01KPT86ZQ"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 3 -->
+
+      <!-- 4) Freidora sin aceite Philips Airfryer Essential HD9252/90 -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Philips-Essential-HD9252-00-preescionientes/dp/B0BNFLCY2N"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/PHILIPS_AIRFRYER.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Philips Airfryer Essential HD9252/90">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">4. Philips Airfryer Essential HD9252/90</h2>
+          <p class="mb-1"><strong>Marca:</strong> Philips</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,5/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 3 210</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">129,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Freidora de aire con tecnología Rapid Air que cocina con hasta 90 % menos de grasa. Capacidad de 0,8 kg, panel digital y 7 programas predefinidos para freír, hornear, asar o recalentar con un solo toque.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Cocina saludable con poco aceite – Pantalla táctil con programas automáticos – Fácil limpieza del cestillo extraíble y apto para lavavajillas.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Capacidad limitada para familias grandes – Requiere reajustar tiempo/temperatura para algunos alimentos – Precio algo elevado comparado con modelos básicos.
+          </p>
+          <a href="https://www.amazon.es/Philips-Essential-HD9252-00-preescionientes/dp/B0BNFLCY2N"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 4 -->
+
+      <!-- 5) Spi­ra­lschneider Leifheit 3230 -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Leifheit-3012-Rallador-universal/dp/B003AM89FS"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/LEIFEIT_SPIRA.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Spi­ra­lschneider Leifheit 3230">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">5. Spi­ra­lschneider Leifheit 3230</h2>
+          <p class="mb-1"><strong>Marca:</strong> Leifheit</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,3/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 842</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">24,90 €</span></p>
+          <p class="text-secondary mb-3">
+            Cortador en espiral de PLASTO C de alta calidad, ideal para espaguetis de calabacín y verduras. Tres cuchillas intercambiables (fina, gruesa y juliana) y ventosa inferior para mayor estabilidad en la encimera.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Cuchillas afiladas y duraderas – Tres niveles de grosor – Fácil montaje y limpieza a mano.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Requiere forzar verduras duras – Ventosa puede perder adherencia en superficies irregulares – No apto para grandes volúmenes de comida.
+          </p>
+          <a href="https://www.amazon.es/Leifheit-3012-Rallador-universal/dp/B003AM89FS"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 5 -->
+
+      <!-- 6) Juego de 3 tapas de silicona Orblue -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Silicona-Reutilizables-Microondas-Cubiertas-Refrigeradores/dp/B0DWWC1JT9"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/ORBLUE_SILICONAS.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Juego de 3 tapas de silicona Orblue">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">6. Juego de 3 tapas de silicona Orblue</h2>
+          <p class="mb-1"><strong>Marca:</strong> Orblue</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,5/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 2 109</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">9,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Conjunto de 3 tapas de silicona elástica para recipientes, tazones y ollas. Ajuste hermético que conserva alimentos frescos, reutilizable y apto para microondas, horno y lavavajillas.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Versátiles para distintos tamaños de recipientes – Ahorro de plástico al evitar film transparente – Aptas para microondas y lavavajillas.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> No aptas para congelador a muy bajas temperaturas prolongadas – Se estiran ligeramente con el uso continuo – Colores pueden mancharse con alimentos fuertes.
+          </p>
+          <a href="https://www.amazon.es/Silicona-Reutilizables-Microondas-Cubiertas-Refrigeradores/dp/B0DWWC1JT9"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 6 -->
+
+      <!-- 7) Juego de 3 cuchillos de cerámica LITERIDE -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Claveles-Cocina-inoxidable-Cuchillos-SAKURA/dp/B088TVXHLC"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/LITERIDE_CERAMICA.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Juego de 3 cuchillos de cerámica LITERIDE">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">7. Juego de 3 cuchillos de cerámica LITERIDE</h2>
+          <p class="mb-1"><strong>Marca:</strong> LITERIDE</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,4/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 045</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">19,95 €</span></p>
+          <p class="text-secondary mb-3">
+            Set de 3 cuchillos de hoja cerámica (8 cm, 12 cm y 18 cm) que ofrecen cortes precisos sin transferir sabor. Mangos ergonómicos antiadherentes y funda protectora para almacenamiento seguro.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Filado extremadamente afilado – Hoja cerámica que no oxida ni desprende sabor – Muy ligeros y fáciles de manejar.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Hojas muy frágiles, se astillan con golpes – No aptos para cortar alimentos congelados o con hueso – Requieren cuidado extra al limpiar.
+          </p>
+          <a href="https://www.amazon.es/Claveles-Cocina-inoxidable-Cuchillos-SAKURA/dp/B088TVXHLC"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+      <!-- /Producto 7 -->
+
+    </div>
+    <!-- /col-12 col-lg-8 mx-auto -->
+  </div>
+  <!-- /row -->
+</div>
+<!-- /container my-4 -->
+
+<!-- Start Footer -->
+<footer id="tempaltemo_footer">
+  <!-- 1) Este div ocupa 100% del ancho con fondo negro -->
+  <div class="container-fluid bg-dark text-light">
+    <!-- 2) Dentro, centramos el contenido en un container fijo -->
+    <div class="container py-5">
+      <!-- 3) Fila centrada: usamos justify-content-center -->
+      <div class="row justify-content-center">
+        
+        <!-- Columna 1: Top7productos + datos de contacto (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Top7productos
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+              Andorra la Vella
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-phone fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="tel:+376666666">
+                +376 666 666
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-envelope fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="mailto:info@top7productos.com">
+                info@top7productos.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Enlaces
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5">Inicio</a>
+              </li>          
+              <li class="nav-item">
+                <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+              </li>
+              <li class="nav-item">
+                <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+              </li>
+              <li class="nav-item">
+                <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+              </li>
+              <li class="nav-item">
+                <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+              </li>
+              <li class="nav-item">
+                <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+              </li>
+              <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Síguenos en redes (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Síguenos
+          </h2>
+          <ul class="list-unstyled d-flex mt-3 footer-icons-list">
+            <li class="me-3">
+              <a href="https://fb.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://instagram.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://twitter.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /end fila justify-content-center -->
+
+      <!-- 4) Línea divisoria y copyright -->
+      <div class="row">
+        <div class="col-12">
+          <hr class="border-light" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center text-light pt-3">
+          <small>&copy; 2024 Top7productos – Todos los derechos reservados.</small>
+        </div>
+      </div>
+      <!-- /end filas inferiores -->
+    </div>
+    <!-- /end container centrado -->
+  </div>
+  <!-- /end container-fluid que cubre 100% ancho -->
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>
+
+
+
+
+
+

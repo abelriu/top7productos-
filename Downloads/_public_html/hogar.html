@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top7productos</title>
+    <style>
+
+    .product {
+      background: white;
+      
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0066c0;
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/7.png">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+<!-- ============================================
+     1) BARRA SUPERIOR: EMAIL + ICONOS SOCIALES
+   ============================================ -->
+<nav class="navbar bg-dark navbar-dark py-2" id="templatemo_nav_top">
+  <div class="container d-flex align-items-center">
+    <!-- EMAIL -->
+    <div class="d-flex align-items-center">
+      <i class="fas fa-envelope nav-icon-top"></i>
+      <a href="mailto:info@top7productos.com" class="nav-link-top">
+        info@top7productos.com
+      </a>
+    </div>
+    <!-- ICONOS SOCIALES ALINEADOS A LA DERECHA -->
+    <div class="ms-auto d-flex align-items-center">
+      <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f nav-icon-top"></i>
+      </a>
+      <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-instagram nav-icon-top"></i>
+      </a>
+      <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-twitter nav-icon-top"></i>
+      </a>
+      <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin nav-icon-top"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================
+     HEADER PRINCIPAL: LOGO + MENÚ COLAPSABLE + BÚSQUEDA
+   ============================================ -->
+<header id="templatemo_main_header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container header-flex d-flex align-items-center justify-content-between">
+
+      <!-- 1) LOGO (siempre visible) -->
+      <div class="logo-wrapper">
+        <a href="/" class="d-flex align-items-center">
+          <img
+            src="/assets/img/logo5.png"
+            alt="Logo Top 7 Productos"
+            class="logo-navbar"
+          />
+        </a>
+      </div>
+
+      <!-- 2) BOTÓN TOGGLER (visible en pantallas < lg) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCategories"
+        aria-controls="navbarCategories"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3) MENÚ COLAPSABLE -->
+      <div
+        class="collapse navbar-collapse w-100 justify-content-center"
+        id="navbarCategories"
+      >
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+          </li>
+          <li class="nav-item">
+            <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+          </li>
+          <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a href="buscador.html" class="nav-link nav-link-buscador fs-5">
+              <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+            </a>
+          </li>
+        </ul>
+        <!-- ÍCONO DE BÚSQUEDA DENTRO DEL COLLAPSE (solo en pantallas < lg) -->
+        <div class="d-lg-none d-flex justify-content-center mt-2">
+          <a href="#" class="nav-link">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) ÍCONO DE BÚSQUEDA (visible en pantallas ≥ lg) -->
+      <div class="search-wrapper d-none d-lg-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-search fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+    <!-- Modal -->
+<!-- … (tu modal de búsqueda se queda igual) … -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="w-100 pt-1 mb-5 text-right">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+        <button type="submit" class="input-group-text bg-success text-light">
+          <i class="fa fa-fw fa-search text-white"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- … Fin del modal de búsqueda … -->
+
+<!---------------------------------- CONTENIDO -------------------------------------------------------------------- -->
+
+<div class="container my-4">
+  <div class="row">
+    <!-- En pantallas grandes ocupa 8 columnas y se centra -->
+    <div class="col-12 col-lg-8 mx-auto">
+
+      <!-- 1) Beaphar Multi Fresh – Neutralizador de olores para gatos -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B005QOZMGC?social_share=cm_sw_r_apan_dp_ZXY6J5GWPV2G455MWTWE&previewDoh=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=7fa5ffa99914bf9f224a522c09f21a54&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/HOGAR1.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Beaphar Multi Fresh – Neutralizador de olores para gatos">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">1. Beaphar Multi Fresh – Neutralizador de olores para gatos</h2>
+          <p class="mb-1"><strong>Marca:</strong> Beaphar</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,4/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 234</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">12,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Beaphar Multi Fresh elimina el mal olor causado por la orina del gato en el arenero. Gracias a su tecnología probiótica de encapsulación, los probióticos se alimentan de los restos de orina, neutralizando el olor y duplicando la vida útil de la arena. Su formulación biodegradable y de pH neutro no daña el microbioma del entorno ni la piel del animal, dejando un aroma suave de melón y vainilla que los gatos no rechazan.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Tecnología probiótica que atrapa y elimina restos de orina – Fragancia suave de melón y vainilla – Fórmula biodegradable y de pH neutro.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Requiere reaplicación semanal en hogares con varios gatos – Puede resultar algo polvoriento al espolvorearlo – No aporta fragancias más intensas para ambientes muy grandes.
+          </p>
+          <a href="https://www.amazon.es/dp/B005QOZMGC?social_share=cm_sw_r_apan_dp_ZXY6J5GWPV2G455MWTWE&previewDoh=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=7fa5ffa99914bf9f224a522c09f21a54&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 2) Air Wick Active Fresh Spray Automático Sin Aerosol -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B0BT1WK99Y?social_share=cm_sw_r_apan_dp_NXQEQJ5MT1MSPVD9HG85&previewDoh=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=8b759061a5506415a40bca9a8adfede1&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/HOGAR2.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Air Wick Active Fresh Spray Automático Sin Aerosol">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">2. Air Wick Active Fresh Spray Automático Sin Aerosol</h2>
+          <p class="mb-1"><strong>Marca:</strong> Air Wick</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,6/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 10 410</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">18,63 €</span></p>
+          <p class="text-secondary mb-3">
+            Este dispositivo automático pulveriza fragancia a intervalos regulares (9, 18 o 40 minutos) gracias a su tecnología OdorProtect, combatiendo malos olores hasta 70 días por recarga. Está infusionado con aceites esenciales naturales, libre de ftalatos, propulsores y colorantes, y funciona con dos pilas AA incluidas, proporcionando un frescor continuo en cualquier estancia.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Neutraliza olores las 24 horas gracias a OdorProtect – Hasta 70 días de frescor por recarga – Sin aerosol perjudicial, con aceites esenciales.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Las pilas pueden agotarse antes de los 70 días si se usa en ajuste alto – El diseño de plástico puede parecer algo básico – Las fragancias más fuertes consumen recarga más rápido.
+          </p>
+          <a href="https://www.amazon.es/dp/B0BT1WK99Y?social_share=cm_sw_r_apan_dp_NXQEQJ5MT1MSPVD9HG85&previewDoh=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=8b759061a5506415a40bca9a8adfede1&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 3) BRITA ON TAP V (600L) – Cartucho de recambio de filtro de agua -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B0C7CVYDYN?social_share=cm_sw_r_apan_dp_S54N0BVWSV03GZCJWX1W_1&previewDoh=1&linkCode=ll1&tag=top7product0d-21&linkId=2bbfab5304480748f65204fdaf913d82&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/HOGAR3.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="BRITA ON TAP V (600L) – Cartucho de recambio de filtro de agua">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">3. BRITA ON TAP V (600L) – Cartucho de recambio de filtro de agua</h2>
+          <p class="mb-1"><strong>Marca:</strong> Brita</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,5/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 5 210</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">19,50 €</span></p>
+          <p class="text-secondary mb-3">
+            Este cartucho de recambio Brita On Tap V está diseñado para el grifo Brita On Tap y filtra hasta 600 litros de agua. Reduce cal, cloro, impurezas, microplásticos, metales pesados (plomo, cobre) y compuestos PFAS, mejorando el sabor y seguridad del agua potable sin necesidad de reemplazos frecuentes.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Alta capacidad de filtrado (600 L) – Reduce cal y metales pesados – Fácil instalación y reemplazo.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Compatible solo con grifo Brita On Tap V – Costo por uso relativamente alto comparado con filtros de jarra – Requiere reemplazo según dureza del agua.
+          </p>
+          <a href="https://www.amazon.es/dp/B0C7CVYDYN?social_share=cm_sw_r_apan_dp_S54N0BVWSV03GZCJWX1W_1&previewDoh=1&linkCode=ll1&tag=top7product0d-21&linkId=2bbfab5304480748f65204fdaf913d82&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) Beans View 2K – Cámara de interior para seguridad -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B0DJ2PQC6P?th=1&linkCode=ll1&tag=top7product0d-21&linkId=5358cb607e23b1234dd81aab45393423&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/HOGAR4.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Beans View 2K – Cámara de interior para seguridad">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">4. Beans View 2K – Cámara de interior para seguridad</h2>
+          <p class="mb-1"><strong>Marca:</strong> Beans View</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,3/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 128</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">21,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Cámara Wi-Fi de interior con resolución 2K, visión nocturna en color y campo de visión de 360°. Incluye auto-seguimiento de personas y detección humana con alertas push al móvil. Compatible con asistentes de voz y dispone de audio bidireccional para interactuar con mascotas o familiares.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Vídeo en 2K y visión nocturna en color – Auto-seguimiento y detección de movimiento humano – Audio bidireccional para monitoreo de mascotas.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Necesita conexión Wi-Fi estable para buen rendimiento – La app móvil puede advertir con falsos positivos – No incluye almacenamiento en la nube gratuito.
+          </p>
+          <a href="https://www.amazon.es/dp/B0DJ2PQC6P?th=1&linkCode=ll1&tag=top7product0d-21&linkId=5358cb607e23b1234dd81aab45393423&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 5) TrendPlain Botella dispensadora – Pulverizador para hogar -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B0CNK9CMQ8?social_share=cm_sw_r_apan_dp_A9WTQ0EY99STW831JTJT&previewDoh=1&previewDohDeal=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=4c26aa7a3e327cc3d47d3dfb125fffca&language=es_ES&ref_=as_li_ss_tl"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/TRENDPLAIN_BOTELLA.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="TrendPlain Botella dispensadora – Pulverizador para hogar">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">5. TrendPlain Botella dispensadora – Pulverizador para hogar</h2>
+          <p class="mb-1"><strong>Marca:</strong> TrendPlain</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,6/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 015</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">15,49 €</span></p>
+          <p class="text-secondary mb-3">
+            Botella dispensadora de plástico resistente con atomizador ajustable en finos chorros. Ideal para riego de plantas de interior y exterior, limpieza de superficies y aplicación de productos de limpieza o desinfectantes. Capacidad de 500 ml y diseño ergonómico que facilita el uso continuo sin cansar la mano.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Boquilla regulable para spray fino o chorro directo – Mango cómodo y antideslizante – Fácil de desmontar y limpiar.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Capacidad limitada a 500 ml – No apta para líquidos demasiado densos o aceitosos – El plástico puede rayarse con el tiempo.
+          </p>
+          <a href="https://www.amazon.es/dp/B0CNK9CMQ8?social_share=cm_sw_r_apan_dp_A9WTQ0EY99STW831JTJT&previewDoh=1&previewDohDeal=1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=4c26aa7a3e327cc3d47d3dfb125fffca&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 6) Wonderlamp Ventilador LED de techo -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/wonderlamp-Ventilador-3000-4000-6000K-Intensidad-Silencioso/dp/B0CYQJY6Z6?pd_rd_w=SkzFk&content-id=amzn1.sym.6e73cc62-d890-4fb2-b32d-30ae2fda1e15&pf_rd_p=6e73cc62-d890-4fb2-b32d-30ae2fda1e15&pf_rd_r=Z6V4PBDMFKGBXQS8RSMJ&pd_rd_wg=xSwEo&pd_rd_r=02ad4340-41ae-4dfb-a0dc-7c9b29cba765&pd_rd_i=B0CYQJY6Z6&th=1&linkCode=ll1&tag=top7product0d-21&linkId=21039fcc967de480a2364e2280fee5ff&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/WONDERLAMP_VENTILADOR_LED.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Wonderlamp Ventilador LED de techo">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">6. Wonderlamp Ventilador LED de techo</h2>
+          <p class="mb-1"><strong>Marca:</strong> Wonderlamp</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,2/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 456</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">59,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Ventilador de techo con iluminación LED integrada de 3000 K, 4000 K y 6000 K, regulable en intensidad. Ofrece tres velocidades de flujo de aire y funciona muy silencioso, ideal para dormitorios o salas de estar. El mando a distancia permite ajustar la luz y la velocidad sin levantarse.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Iluminación LED con temperatura de color ajustable – Funcionamiento muy silencioso – Mando a distancia con temporizador.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Instalación algo compleja, requiere fijación segura al techo – No incluye instrucciones muy detalladas – Precio algo elevado comparado con ventiladores sin luz.
+          </p>
+          <a href="https://www.amazon.es/wonderlamp-Ventilador-3000-4000-6000K-Intensidad-Silencioso/dp/B0CYQJY6Z6?pd_rd_w=SkzFk&content-id=amzn1.sym.6e73cc62-d890-4fb2-b32d-30ae2fda1e15&pf_rd_p=6e73cc62-d890-4fb2-b32d-30ae2fda1e15&pf_rd_r=Z6V4PBDMFKGBXQS8RSMJ&pd_rd_wg=xSwEo&pd_rd_r=02ad4340-41ae-4dfb-a0dc-7c9b29cba765&pd_rd_i=B0CYQJY6Z6&th=1&linkCode=ll1&tag=top7product0d-21&linkId=21039fcc967de480a2364e2280fee5ff&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 7) Mimotec Ventilador de techo retráctil -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/mimotec-velocidades-retr%C3%A1ctiles-verano-invierno-temporizador/dp/B0DYP8WNJS?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2MYW3UEW0Q9WP&dib=eyJ2IjoiMSJ9.CDvfrESV1mN1EFyKMzcsaM9mkmUgKYOQKth3ghestUHIAb_s7ZRKCd4J3MiyZ_LWHv8YK21yjg1PMbSedukwvtHAoXdWsWOwsJR0uIfAWrWhPYlNfpdaF3Dbus7BGP1RuFaQWfbA5eAvPWhz79dVuZwUxyfBxwKWCGvxZHa7ulZVPVQ6IVVDSld2NaD63YaCODNp8zczlbwgOCav969TG1Dbv8UmlGMUsTcHSW8_0T5XZAgnIU3Lmpm9sjlPKmV27YZBG5Irs09vlVjyq1gDIF4xg0S7bxtvsvlSs1SE8xw.hwGK7dQDDAyw4EamoIbNnMn-C8KDrZFDizJ8H_VhHKw&dib_tag=se&keywords=ventilador%2Btecho%2Bled&m=A1AT7YVPFBWXBL&qid=1748984510&refinements=p_85%3A20930978031%2Cp_6%3AA1AT7YVPFBWXBL&rnid=831275031&rps=1&s=kitchen&sprefix=ventilador%2Btecho%2Bled%2Ckitchen%2C105&sr=1-1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=f3826c205cb34d495653c35932f220ce&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/MIMOTEC_VENTILADOR_TECHO.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Mimotec Ventilador de techo retráctil">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">7. Mimotec Ventilador de techo retráctil</h2>
+          <p class="mb-1"><strong>Marca:</strong> Mimotec</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,4/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 382</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">79,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Ventilador de techo con aspas retráctiles para un diseño compacto cuando está apagado. Función reversible de verano/invierno distribuye aire fresco o caliente según la temporada. Incluye tres velocidades, temporizador y mando a distancia para ajustar ventilación e iluminación LED integrados de bajo consumo.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Aspas retráctiles que ahorran espacio – Función reversible para confort todo el año – Iluminación LED integrada con mando a distancia.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Instalación compleja, requiere soporte firme en techo – No apto para techos muy bajos – El mando necesita línea de visión directa para funcionar correctamente.
+          </p>
+          <a href="https://www.amazon.es/mimotec-velocidades-retr%C3%A1ctiles-verano-invierno-temporizador/dp/B0DYP8WNJS?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2MYW3UEW0Q9WP&dib=eyJ2IjoiMSJ9.CDvfrESV1mN1EFyKMzcsaM9mkmUgKYOQKth3ghestUHIAb_s7ZRKCd4J3MiyZ_LWHv8YK21yjg1PMbSedukwvtHAoXdWsWOwsJR0uIfAWrWhPYlNfpdaF3Dbus7BGP1RuFaQWfbA5eAvPWhz79dVuZwUxyfBxwKWCGvxZHa7ulZVPVQ6IVVDSld2NaD63YaCODNp8zczlbwgOCav969TG1Dbv8UmlGMUsTcHSW8_0T5XZAgnIU3Lmpm9sjlPKmV27YZBG5Irs09vlVjyq1gDIF4xg0S7bxtvsvlSs1SE8xw.hwGK7dQDDAyw4EamoIbNnMn-C8KDrZFDizJ8H_VhHKw&dib_tag=se&keywords=ventilador%2Btecho%2Bled&m=A1AT7YVPFBWXBL&qid=1748984510&refinements=p_85%3A20930978031%2Cp_6%3AA1AT7YVPFBWXBL&rnid=831275031&rps=1&s=kitchen&sprefix=ventilador%2Btecho%2Bled%2Ckitchen%2C105&sr=1-1&th=1&linkCode=ll1&tag=top7product0d-21&linkId=f3826c205cb34d495653c35932f220ce&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+<!-- Start Footer -->
+<footer id="tempaltemo_footer">
+  <!-- 1) Este div ocupa 100% del ancho con fondo negro -->
+  <div class="container-fluid bg-dark text-light">
+    <!-- 2) Dentro, centramos el contenido en un container fijo -->
+    <div class="container py-5">
+      <!-- 3) Fila centrada: usamos justify-content-center -->
+      <div class="row justify-content-center">
+        
+        <!-- Columna 1: Top7productos + datos de contacto (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Top7productos
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+              Andorra la Vella
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-phone fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="tel:+376666666">
+                +376 666 666
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-envelope fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="mailto:info@top7productos.com">
+                info@top7productos.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Enlaces
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5">Inicio</a>
+              </li>          
+              <li class="nav-item">
+                <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+              </li>
+              <li class="nav-item">
+                <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+              </li>
+              <li class="nav-item">
+                <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+              </li>
+              <li class="nav-item">
+                <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+              </li>
+              <li class="nav-item">
+                <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+              </li>
+              <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Síguenos en redes (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Síguenos
+          </h2>
+          <ul class="list-unstyled d-flex mt-3 footer-icons-list">
+            <li class="me-3">
+              <a href="https://fb.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://instagram.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://twitter.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /end fila justify-content-center -->
+
+      <!-- 4) Línea divisoria y copyright -->
+      <div class="row">
+        <div class="col-12">
+          <hr class="border-light" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center text-light pt-3">
+          <small>&copy; 2024 Top7productos – Todos los derechos reservados.</small>
+        </div>
+      </div>
+      <!-- /end filas inferiores -->
+    </div>
+    <!-- /end container centrado -->
+  </div>
+  <!-- /end container-fluid que cubre 100% ancho -->
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>
+
+
+
+
+
+

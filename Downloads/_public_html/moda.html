@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top7productos</title>
+    <style>
+
+    .product {
+      background: white;
+      
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0066c0;
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/7.png">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+<!-- ============================================
+     1) BARRA SUPERIOR: EMAIL + ICONOS SOCIALES
+   ============================================ -->
+<nav class="navbar bg-dark navbar-dark py-2" id="templatemo_nav_top">
+  <div class="container d-flex align-items-center">
+    <!-- EMAIL -->
+    <div class="d-flex align-items-center">
+      <i class="fas fa-envelope nav-icon-top"></i>
+      <a href="mailto:info@top7productos.com" class="nav-link-top">
+        info@top7productos.com
+      </a>
+    </div>
+    <!-- ICONOS SOCIALES ALINEADOS A LA DERECHA -->
+    <div class="ms-auto d-flex align-items-center">
+      <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f nav-icon-top"></i>
+      </a>
+      <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-instagram nav-icon-top"></i>
+      </a>
+      <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-twitter nav-icon-top"></i>
+      </a>
+      <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin nav-icon-top"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================
+     HEADER PRINCIPAL: LOGO + MENÚ COLAPSABLE + BÚSQUEDA
+   ============================================ -->
+<header id="templatemo_main_header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container header-flex d-flex align-items-center justify-content-between">
+
+      <!-- 1) LOGO (siempre visible) -->
+      <div class="logo-wrapper">
+        <a href="/" class="d-flex align-items-center">
+          <img
+            src="/assets/img/logo5.png"
+            alt="Logo Top 7 Productos"
+            class="logo-navbar"
+          />
+        </a>
+      </div>
+
+      <!-- 2) BOTÓN TOGGLER (visible en pantallas < lg) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCategories"
+        aria-controls="navbarCategories"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3) MENÚ COLAPSABLE -->
+      <div
+        class="collapse navbar-collapse w-100 justify-content-center"
+        id="navbarCategories"
+      >
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+          </li>
+          <li class="nav-item">
+            <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+          </li>
+          <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a href="buscador.html" class="nav-link nav-link-buscador fs-5">
+              <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+            </a>
+          </li>
+        </ul>
+        <!-- ÍCONO DE BÚSQUEDA DENTRO DEL COLLAPSE (solo en pantallas < lg) -->
+        <div class="d-lg-none d-flex justify-content-center mt-2">
+          <a href="#" class="nav-link">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) ÍCONO DE BÚSQUEDA (visible en pantallas ≥ lg) -->
+      <div class="search-wrapper d-none d-lg-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-search fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+    <!-- Modal -->
+<!-- … (tu modal de búsqueda se queda igual) … -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="w-100 pt-1 mb-5 text-right">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+        <button type="submit" class="input-group-text bg-success text-light">
+          <i class="fa fa-fw fa-search text-white"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- … Fin del modal de búsqueda … -->
+
+<!---------------------------------- CONTENIDO -------------------------------------------------------------------- -->
+
+<div class="container my-4">
+  <div class="row">
+    <!-- En pantallas grandes ocupa 8 columnas y se centra -->
+    <div class="col-12 col-lg-8 mx-auto">
+         <!-- 1) Jack & Sons Chino Trousers ONSMARK Slim Fit -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/Jack-Jones-NOS-Pantalones-Fabricante/dp/B07JQB8XL6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FEBNJWUOYTIE&dib=eyJ2IjoiMSJ9.l8Dh0K8nmuWczBnylGdzCcXXHPA6GWAUDBvJaUAKNLul64hsDIX0yiQdgD_s6xPoE_lF7TLwJIPbnNJ3e3Om__GViAcRn-fNNY86uelM8FrrN71W8he8e0Ji5iO8-_MtJauhYER2HHbcHrZ-dgmmFbT9EvoZrRdkOyJgHzsN07TEqscxPsWhfOk8L8Q0U0IrvjVvBMlCcIXsKLMceoh68swahJhhmqqJl7AKeHKnYBaoKXnZL9TEPXrgBuAiq5EYAj9H6KT89bLiaua0I9KDY8CX7X83yx9jvJiobDRrHGo.-dMk4WsqQkuVuONIgo2XXFD7O3YpoQRai8q7zn51M0s&sprefix=jack%2Bjones%2Bjjimarco%2Caps%2C145&sr=8-3&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=af846202cb9bce78d1c1f73a83dda078&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/JACKJONES.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="Jack & Sons Chino Trousers ONSMARK Slim Fit">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">1. Jack &amp; Sons ONSMARK Slim Fit Chino Trousers</h2>
+    <p class="mb-1"><strong>Marca:</strong> Only &amp; Sons</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,4/5 | <strong>Opiniones:</strong> 2.756</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">29,99 €</span> <small class="text-muted text-decoration-line-through">39,99 €</small></p>
+    <p class="text-secondary mb-3">
+      Chino slim fit de Only &amp; Sons, confeccionado en mezcla de algodón con un ligero toque elástico.
+      Incluye cinco bolsillos clásicos y cierre de cremallera con botón. Versátil para oficina y día a día.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Corte moderno slim fit – Tejido suave y elástico – Gran variedad de colores.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> Ajuste ceñido para muslos anchos – Requiere cuidado al lavar.</p>
+    <a
+      href="https://www.amazon.es/Jack-Jones-NOS-Pantalones-Fabricante/dp/B07JQB8XL6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FEBNJWUOYTIE&dib=eyJ2IjoiMSJ9.l8Dh0K8nmuWczBnylGdzCcXXHPA6GWAUDBvJaUAKNLul64hsDIX0yiQdgD_s6xPoE_lF7TLwJIPbnNJ3e3Om__GViAcRn-fNNY86uelM8FrrN71W8he8e0Ji5iO8-_MtJauhYER2HHbcHrZ-dgmmFbT9EvoZrRdkOyJgHzsN07TEqscxPsWhfOk8L8Q0U0IrvjVvBMlCcIXsKLMceoh68swahJhhmqqJl7AKeHKnYBaoKXnZL9TEPXrgBuAiq5EYAj9H6KT89bLiaua0I9KDY8CX7X83yx9jvJiobDRrHGo.-dMk4WsqQkuVuONIgo2XXFD7O3YpoQRai8q7zn51M0s&sprefix=jack%2Bjones%2Bjjimarco%2Caps%2C145&sr=8-3&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=af846202cb9bce78d1c1f73a83dda078&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+
+<!-- 2) Sandalias de Verano Mujer -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/dp/B0FBL1QWZ3?social_share=cm_sw_r_apan_dp_85FEN0272J4AZJBVVG3W&previewDoh=1&previewDohDeal=1&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=4da021aff3e27931d31862eba733f88a&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/SANDALIA.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="Sandalias de Verano Mujer">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">2. Sandalias de Verano Mujer</h2>
+    <p class="mb-1"><strong>Marca:</strong> Genérica</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,3/5 | <strong>Opiniones:</strong> 152</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">29,99 €</span></p>
+    <p class="text-secondary mb-3">
+      Sandalias ligeras con suela antideslizante, tiras transpirables y hebilla ajustable. Ideales para
+      paseos y uso diario en verano.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Muy cómodas y frescas – Ajuste seguro – Versátiles.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> No aptas para terrenos irregulares – Material no resistente al agua.</p>
+    <a
+      href="https://www.amazon.es/dp/B0FBL1QWZ3?social_share=cm_sw_r_apan_dp_85FEN0272J4AZJBVVG3W&previewDoh=1&previewDohDeal=1&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=4da021aff3e27931d31862eba733f88a&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+
+<!-- 3) Only & Sons ONSMARK Slim Fit Chino Trousers -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/gp/product/B07BDX14WT?smid=A1AT7YVPFBWXBL&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=dd0aaa6d022c3f810456bb280540ccf0&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/PANTALON_CHINO.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="Only & Sons ONSMARK Slim Fit Chino Trousers">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">3. Only &amp; Sons ONSMARK Slim Fit Chino Trousers</h2>
+    <p class="mb-1"><strong>Marca:</strong> Only &amp; Sons</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,4/5 | <strong>Opiniones:</strong> 2.756</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">29,99 €</span> <small class="text-muted text-decoration-line-through">39,99 €</small></p>
+    <p class="text-secondary mb-3">
+      Chino slim fit en algodón con elasticidad, cinco bolsillos y cierre de cremallera. Combina con camisa
+      o camiseta para un look contemporáneo.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Corte ajustado – Tejido cómodo – Amplia gama de colores.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> Muy ceñido para muslos anchos – Requiere cuidado en lavado.</p>
+    <a
+      href="https://www.amazon.es/gp/product/B07BDX14WT?smid=A1AT7YVPFBWXBL&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=dd0aaa6d022c3f810456bb280540ccf0&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+
+<!-- 4) Gucci Gafas de Sol GG1337S -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/Gucci-Gafas-GG1337S-Black-Shaded/dp/B0BT7SXZ4P?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6R0S7J09XM3V&dib=eyJ2IjoiMSJ9.aWQ1fr465ddygUOLSUVOib87zLY-HW6lcXy5coBjYhsK-4ynsAskTsUwjoQLW1mcdsdj8D7UPQm79lEvdsSTtKXBdBwvEaaWCxSiJDDi_fqsn3-VcQ_q3tRMR_5A7whgLH6Q_U6fbU7Ows_tJvH3H19MxZ7nWguzlcaXFz1x8nkJK6JdqEbF7yyc3GHTIvBDO7UQueEbpQI5r2fs1tdc9pZs2jNn4L5qalEAqnOP1pTLCkolxNivzUqN6fmmbQm0xfHjrVRrh4ACG-5t6ENRJ3qPa9_xVVsoPXeW711_Ug8.AXbsGgnvzd9ziSP9HVSrk57w9qbIOm1E2J9wRgjCnlA&dib_tag=se&keywords=gafas%2Bde%2Bsol%2Bgucci&qid=1749281486&refinements=p_123%3A359001&rnid=91049100031&sprefix=gafas%2Bde%2Bsol%2Bgucci%2Caps%2C96&sr=8-1&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=dc125355b3355cd57aa6f5d94bf18767&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/GUCCI_GAFAS.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="Gucci Gafas de Sol GG1337S">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">4. Gucci Gafas de Sol GG1337S</h2>
+    <p class="mb-1"><strong>Marca:</strong> Gucci</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,7/5 | <strong>Opiniones:</strong> 214</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">249,00 €</span></p>
+    <p class="text-secondary mb-3">
+      Montura cuadrada de acetato negro con lentes degradadas UV400 y detalles dorados en varillas.
+      Elegantes y sofisticadas para cualquier ocasión.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Acabado premium – Protección UV – Diseño icónico.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> Precio muy alto – Peso mayor que gafas estándar.</p>
+    <a
+      href="https://www.amazon.es/Gucci-Gafas-GG1337S-Black-Shaded/dp/B0BT7SXZ4P?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6R0S7J09XM3V&dib=eyJ2IjoiMSJ9.aWQ1fr465ddygUOLSUVOib87zLY-HW6lcXy5coBjYhsK-4ynsAskTsUwjoQLW1mcdsdj8D7UPQm79lEvdsSTtKXBdBwvEaaWCxSiJDDi_fqsn3-VcQ_q3tRMR_5A7whgLH6Q_U6fbU7Ows_tJvH3H19MxZ7nWguzlcaXFz1x8nkJK6JdqEbF7yyc3GHTIvBDO7UQueEbpQI5r2fs1tdc9pZs2jNn4L5qalEAqnOP1pTLCkolxNivzUqN6fmmbQm0xfHjrVRrh4ACG-5t6ENRJ3qPa9_xVVsoPXeW711_Ug8.AXbsGgnvzd9ziSP9HVSrk57w9qbIOm1E2J9wRgjCnlA&dib_tag=se&keywords=gafas%2Bde%2Bsol%2Bgucci&qid=1749281486&refinements=p_123%3A359001&rnid=91049100031&sprefix=gafas%2Bde%2Bsol%2Bgucci%2Caps%2C96&sr=8-1&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=dc125355b3355cd57aa6f5d94bf18767&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+
+<!-- 5) TEEHON Tarjetero Magnético -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/TEEHON-Magn%C3%A9tico-Protecci%C3%B3n-Compartimento-Tarjeteros/dp/B0D17Y7RKF?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VWSA98C51A07&dib=eyJ2IjoiMSJ9.0Fi1G-NzQxojJL_rw6Eb_mDagqTJWOhoG3ddsBt9fsapVTCIfooUJERq6k0tq3LOIk2LBqp0QbDsiXLoowXTGDlt5dTsgWQUo1nHSRWvADUtlp0rZVou79lQl3sJYikzPplNL1UskJ9ypf2470LKjnJgyr0VuC-sTwI3daO3E_LVessbbrgQTKbnKWwE_UOQwIFJsW1ZrSlNCJfC7Jb81XjS6tgqLjABimnjDvDYN9P6d0U7S-UUeo3jLlDxN548fAwqW4ZM0m82wyahO_Tl6j_bHYvTm5xfFyYncQFN1p0.HgX8UlhGTAv5j_LAGxcx0GEbwhAXJxykSYrrFVRH9BA&dib_tag=se&keywords=tarjetero%2Bhombre&qid=1749281584&sprefix=tarjetero%2Bhombr%2Caps%2C95&sr=8-44&th=1&linkCode=ll1&tag=top7product0d-21&linkId=cf750398b9cdb8232c13448eb1351380&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/TEEHON_TARJETERO.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="TEEHON Tarjetero Magnético">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">5. TEEHON Tarjetero Magnético</h2>
+    <p class="mb-1"><strong>Marca:</strong> TEEHON</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,4/5 | <strong>Opiniones:</strong> 478</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">19,99 €</span></p>
+    <p class="text-secondary mb-3">
+      Tarjetero de aluminio con cierre magnético, protección RFID y compartimentos para 6 tarjetas.
+      Diseño ultradelgado, ideal para llevar en bolsillo delantero.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Protección RFID – Muy ligero – Construcción robusta.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> Capacidad limitada – No cabe document… larger.</p>
+    <a
+      href="https://www.amazon.es/TEEHON-Magn%C3%A9tico-Protecci%C3%B3n-Compartimento-Tarjeteros/dp/B0D17Y7RKF?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VWSA98C51A07&dib=eyJ2IjoiMSJ9.0Fi1G-NzQxojJL_rw6Eb_mDagqTJWOhoG3ddsBt9fsapVTCIfooUJERq6k0tq3LOIk2LBqp0QbDsiXLoowXTGDlt5dTsgWQUo1nHSRWvADUtlp0rZVou79lQl3sJYikzPplNL1UskJ9ypf2470LKjnJgyr0VuC-sTwI3daO3E_LVessbbrgQTKbnKWwE_UOQwIFJsW1ZrSlNCJfC7Jb81XjS6tgqLjABimnjDvDYN9P6d0U7S-UUeo3jLlDxN548fAwqW4ZM0m82wyahO_Tl6j_bHYvTm5xfFyYncQFN1p0.HgX8UlhGTAv5j_LAGxcx0GEbwhAXJxykSYrrFVRH9BA&dib_tag=se&keywords=tarjetero%2Bhombre&qid=1749281584&sprefix=tarjetero%2Bhombr%2Caps%2C95&sr=8-44&th=1&linkCode=ll1&tag=top7product0d-21&linkId=cf750398b9cdb8232c13448eb1351380&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+
+<!-- 6) Saucony Jazz Original Vintage -->
+<div class="product border rounded shadow-sm bg-white mb-4">
+  <div class="w-100 d-flex justify-content-center">
+    <a
+      href="https://www.amazon.es/Saucony-Original-Vitnage-Zapatillas-Hombre/dp/B07KJYJR2C?crid=3ROMEVWOOLZ94&dib=eyJ2IjoiMSJ9.sCegdQn37bkETsbpqXWUMaDXdyLT6pvnWue7zZATBLOnkI01R3YXTMQM1BpYLTop9MH6PdlvOIRMNr1bui1VzVAGhKQE0TTtFQz1YBnOhhDaH2Yqwju_0H8Aqb_0xn99bQwT8h9F-gR_5Ukj28yL_ElQOztnfU-6bhMs2G-l9B1S59M6idjpT-xIb6SayF0Xr2EzK7VOxs4cxmS75XP0TL1qKmN83dxZYz28acGdARx1CBciKBWY4Fb8k4i0PE5bkpeJJY7znJheU_xeCdmvZtYEDG4QtD6V6lVpZeYBPhg.s8oGpa2GFF524zbGHnG5hOd3FBo5wRul54fyx7_0Llw&sprefix=saucony%2Bjazz%2Bhombre%2Caps%2C95&sr=8-3&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=b5ef8f9b7a676556ee1f21e471bc378e&language=es_ES&ref_=as_li_ss_tl"
+      target="_blank" rel="nofollow noopener noreferrer">
+      <img
+        src="/assets/img/IMATGES/SAUCONY_JAZZ.jpg"
+        class="img-fluid rounded-top"
+        style="max-width: 100%;"
+        alt="Saucony Jazz Original Vintage">
+    </a>
+  </div>
+  <div class="p-4">
+    <h2 class="h4 mb-3" style="color: #222;">6. Saucony Jazz Original Vintage</h2>
+    <p class="mb-1"><strong>Marca:</strong> Saucony</p>
+    <p class="mb-1"><strong>Valoración:</strong> 4,5/5 | <strong>Opiniones:</strong> 1.089</p>
+    <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">79,90 €</span></p>
+    <p class="text-secondary mb-3">
+      Zapatillas de estilo retro con parte superior de ante y nylon, media suela EVA y suela de caucho resistente.
+      Confort diario y look clásico.
+    </p>
+    <p class="text-secondary mb-3"><strong>Pros:</strong> Diseño atemporal – Amortiguación ligera – Gran durabilidad.</p>
+    <p class="text-secondary mb-4"><strong>Contras:</strong> Ante requiere cuidado – No aptas para deporte intenso.</p>
+    <a
+      href="https://www.amazon.es/Saucony-Original-Vitnage-Zapatillas-Hombre/dp/B07KJYJR2C?crid=3ROMEVWOOLZ94&dib=eyJ2IjoiMSJ9.sCegdQn37bkETsbpqXWUMaDXdyLT6pvnWue7zZATBLOnkI01R3YXTMQM1BpYLTop9MH6PdlvOIRMNr1bui1VzVAGhKQE0TTtFQz1YBnOhhDaH2Yqwju_0H8Aqb_0xn99bQwT8h9F-gR_5Ukj28yL_ElQOztnfU-6bhMs2G-l9B1S59M6idjpT-xIb6SayF0Xr2EzK7VOxs4cxmS75XP0TL1qKmN83dxZYz28acGdARx1CBciKBWY4Fb8k4i0PE5bkpeJJY7znJheU_xeCdmvZtYEDG4QtD6V6lVpZeYBPhg.s8oGpa2GFF524zbGHnG5hOd3FBo5wRul54fyx7_0Llw&sprefix=saucony%2Bjazz%2Bhombre%2Caps%2C95&sr=8-3&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=b5ef8f9b7a676556ee1f21e471bc378e&language=es_ES&ref_=as_li_ss_tl"
+      class="btn btn-warning fw-bold">Ver en Amazon →</a>
+  </div>
+</div>
+   
+
+        
+        
+    </div>
+</div>
+
+            </div>
+<!-- Start Footer -->
+<footer id="tempaltemo_footer">
+  <!-- 1) Este div ocupa 100% del ancho con fondo negro -->
+  <div class="container-fluid bg-dark text-light">
+    <!-- 2) Dentro, centramos el contenido en un container fijo -->
+    <div class="container py-5">
+      <!-- 3) Fila centrada: usamos justify-content-center -->
+      <div class="row justify-content-center">
+        
+        <!-- Columna 1: Top7productos + datos de contacto (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Top7productos
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+              Andorra la Vella
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-phone fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="tel:+376666666">
+                +376 666 666
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-envelope fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="mailto:info@top7productos.com">
+                info@top7productos.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Enlaces
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5">Inicio</a>
+              </li>          
+              <li class="nav-item">
+                <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+              </li>
+              <li class="nav-item">
+                <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+              </li>
+              <li class="nav-item">
+                <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+              </li>
+              <li class="nav-item">
+                <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+              </li>
+              <li class="nav-item">
+                <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+              </li>
+              <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Síguenos en redes (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Síguenos
+          </h2>
+          <ul class="list-unstyled d-flex mt-3 footer-icons-list">
+            <li class="me-3">
+              <a href="https://fb.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://instagram.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://twitter.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /end fila justify-content-center -->
+
+      <!-- 4) Línea divisoria y copyright -->
+      <div class="row">
+        <div class="col-12">
+          <hr class="border-light" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center text-light pt-3">
+          <small>&copy; 2024 Top7productos – Todos los derechos reservados.</small>
+        </div>
+      </div>
+      <!-- /end filas inferiores -->
+    </div>
+    <!-- /end container centrado -->
+  </div>
+  <!-- /end container-fluid que cubre 100% ancho -->
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>
+
+
+
+
+
+

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Buscador de Productos Amazon | Top7Productos</title>
+  <meta name="description" content="Busca cualquier producto en Amazon y obtén los mejores resultados con precios, valoraciones y enlace directo de compra.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://www.top7productos.com/buscador.html">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:locale"      content="es_ES">
+  <meta property="og:url"         content="https://www.top7productos.com/buscador.html">
+  <meta property="og:title"       content="Buscador de Productos Amazon | Top7Productos">
+  <meta property="og:description" content="Busca en Amazon y te mostramos los mejores resultados con precios y valoraciones reales.">
+  <meta property="og:image"       content="https://www.top7productos.com/assets/img/seo_search_02.png">
+
+  <link rel="icon" type="image/png" href="assets/img/7.png">
+  <link rel="apple-touch-icon"      href="assets/img/logo.png">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/templatemo.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================================================
+       BARRA SUPERIOR
+       ============================================================ -->
+  <nav id="templatemo_nav_top" aria-label="Información de contacto y redes sociales">
+    <div class="container d-flex align-items-center">
+      <div class="d-flex align-items-center">
+        <i class="fas fa-envelope nav-icon-top" aria-hidden="true"></i>
+        <a href="mailto:info@top7productos.com" class="nav-link-top">
+          info@top7productos.com
+        </a>
+      </div>
+      <div class="ms-auto d-flex align-items-center">
+        <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Facebook">
+          <i class="fab fa-facebook-f nav-icon-top" aria-hidden="true"></i>
+        </a>
+        <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+          <i class="fab fa-instagram nav-icon-top" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Twitter / X">
+          <i class="fab fa-twitter nav-icon-top" aria-hidden="true"></i>
+        </a>
+        <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en LinkedIn">
+          <i class="fab fa-linkedin nav-icon-top" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HEADER PRINCIPAL
+       ============================================================ -->
+  <header id="templatemo_main_header">
+    <nav class="navbar navbar-expand-lg navbar-light" role="navigation" aria-label="Navegación principal">
+      <div class="container header-flex d-flex align-items-center justify-content-between">
+
+        <div class="logo-wrapper">
+          <a href="index.html" aria-label="Top7Productos — Inicio">
+            <img src="assets/img/logo5.png" alt="Logo Top7Productos" class="logo-navbar" width="160" height="60" fetchpriority="high">
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategories" aria-controls="navbarCategories" aria-expanded="false" aria-label="Abrir o cerrar el menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse w-100 justify-content-center" id="navbarCategories">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item">
+              <a href="cocina.html"      class="nav-link">Cocina</a>
+            </li>
+            <li class="nav-item">
+              <a href="zapatillas.html"  class="nav-link">Zapatillas</a>
+            </li>
+            <li class="nav-item">
+              <a href="camaras.html"     class="nav-link">Cámaras Acción</a>
+            </li>
+            <li class="nav-item">
+              <a href="accesorios.html"  class="nav-link">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a href="pantalones.html"  class="nav-link">Pantalones</a>
+            </li>
+            <li class="nav-item">
+              <a href="hogar.html"       class="nav-link">Hogar</a>
+            </li>
+            <li class="nav-item">
+              <a href="moda.html"        class="nav-link">Moda</a>
+            </li>
+            <li class="nav-item">
+              <a href="buscador.html" class="nav-link nav-link-buscador active" aria-current="page">
+                <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+              </a>
+            </li>
+          </ul>
+          <div class="d-lg-none d-flex justify-content-center mt-2 mb-2">
+            <button class="btn-search" aria-label="Abrir buscador" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="search-wrapper d-none d-lg-flex">
+          <button class="btn-search" aria-label="Abrir buscador" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MODAL DE BÚSQUEDA
+       ============================================================ -->
+  <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="w-100 pt-1 mb-5 text-end">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar buscador"></button>
+      </div>
+      <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0" role="search" aria-label="Buscar productos">
+        <h2 id="searchModalLabel" class="visually-hidden">Buscar productos en Top7Productos</h2>
+        <div class="input-group mb-2">
+          <label for="inputModalSearch" class="visually-hidden">Buscar productos</label>
+          <input type="search" class="form-control" id="inputModalSearch" name="q" placeholder="Busca zapatillas, cámaras, cocina…" autocomplete="off">
+          <button type="submit" class="input-group-text bg-success text-light" aria-label="Ejecutar búsqueda">
+            <i class="fas fa-search text-white" aria-hidden="true"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CONTENIDO PRINCIPAL
+       ============================================================ -->
+  <main id="main-content" role="main">
+
+    <!-- HERO DEL BUSCADOR -->
+    <section class="buscador-hero" aria-label="Buscador de productos Amazon">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-md-9 col-lg-7">
+            <h1 class="buscador-hero-title">
+              Encuentra tu producto <span>ideal</span> en Amazon
+            </h1>
+            <p class="buscador-hero-sub">
+              Escribe lo que buscas y te mostramos los mejores resultados con precio, valoración y enlace directo.
+            </p>
+            <form id="buscador-form" class="buscador-form" autocomplete="off" role="search" aria-label="Buscar en Amazon">
+              <div class="input-group buscador-input-group">
+                <label for="buscador-input" class="visually-hidden">Buscar producto</label>
+                <input
+                  type="search"
+                  id="buscador-input"
+                  class="form-control form-control-lg buscador-input"
+                  placeholder="Busca airfryer, zapatillas Nike, cámara GoPro…"
+                  aria-label="Buscar producto en Amazon"
+                  spellcheck="false"
+                >
+                <button type="submit" class="btn btn-buscador-search" aria-label="Buscar">
+                  <i class="fas fa-search me-1" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREA DE RESULTADOS -->
+    <section id="buscador-results-section" class="buscador-results-section" aria-live="polite" aria-label="Resultados de búsqueda">
+      <div class="container">
+
+        <!-- Estado (cargando / sin resultados / error) -->
+        <div id="buscador-status" class="buscador-status text-center py-5" role="status" style="display:none;"></div>
+
+        <!-- Encabezado de resultados -->
+        <div id="buscador-results-header" class="buscador-results-header" style="display:none;">
+          <p id="buscador-query-label" class="buscador-query-label"></p>
+        </div>
+
+        <!-- Cuadrícula de productos -->
+        <div id="buscador-results" class="row g-4"></div>
+
+      </div>
+    </section>
+
+    <!-- ESTADO INICIAL (sin búsqueda) -->
+    <div id="buscador-empty-state" class="buscador-empty-state">
+      <div class="container text-center">
+        <i class="fas fa-search buscador-empty-icon" aria-hidden="true"></i>
+        <h2 class="buscador-empty-title">¿Qué producto buscas hoy?</h2>
+        <p class="buscador-empty-sub">Prueba con: <a href="#" class="buscador-suggestion" data-q="airfryer">airfryer</a>, <a href="#" class="buscador-suggestion" data-q="zapatillas running">zapatillas running</a>, <a href="#" class="buscador-suggestion" data-q="cámara acción">cámara acción</a>, <a href="#" class="buscador-suggestion" data-q="auriculares bluetooth">auriculares bluetooth</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer id="tempaltemo_footer" aria-label="Pie de página">
+    <div class="container-fluid">
+      <div class="container py-5">
+        <div class="row g-4">
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <h2>Top7Productos</h2>
+            <p class="footer-desc">
+              Rankings honestos de los mejores productos en Amazon. Actualizamos cada 72 horas para que siempre encuentres lo más recomendable de cada categoría.
+            </p>
+            <ul class="footer-link-list mt-3">
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw me-2" aria-hidden="true"></i>
+                Andorra la Vella
+              </li>
+              <li>
+                <a href="tel:+376666666" aria-label="Llamar al +376 666 666">
+                  <i class="fas fa-phone fa-fw me-2" aria-hidden="true"></i>+376 666 666
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@top7productos.com" aria-label="Enviar email a info@top7productos.com">
+                  <i class="fas fa-envelope fa-fw me-2" aria-hidden="true"></i>info@top7productos.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2">
+            <h2>Categorías</h2>
+            <ul class="footer-link-list">
+              <li><a href="zapatillas.html">Zapatillas</a></li>
+              <li><a href="camaras.html">Cámaras Acción</a></li>
+              <li><a href="cocina.html">Cocina</a></li>
+              <li><a href="hogar.html">Hogar</a></li>
+              <li><a href="moda.html">Moda</a></li>
+              <li><a href="pantalones.html">Pantalones</a></li>
+              <li><a href="accesorios.html">Accesorios</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2>Información</h2>
+            <ul class="footer-link-list">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="buscador.html">Buscador Amazon</a></li>
+              <li><a href="mailto:info@top7productos.com">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2>Síguenos</h2>
+            <ul class="footer-icons-list">
+              <li>
+                <a href="https://fb.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Top7Productos">
+                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Top7Productos">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X de Top7Productos">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Top7Productos">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <p class="footer-affiliate-note">
+          Top7Productos participa en el Programa de Afiliados de Amazon. Al hacer clic en nuestros enlaces y realizar una compra, podemos recibir una comisión sin coste adicional para ti.
+        </p>
+        <p class="footer-copyright">
+          &copy; 2025 Top7Productos — Todos los derechos reservados.
+        </p>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery-1.11.0.min.js"></script>
+  <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/templatemo.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var WORKER  = 'https://top7-paapi.t7productos.workers.dev';
+    var TAG     = 'top7product0d-21';
+
+    var form         = document.getElementById('buscador-form');
+    var input        = document.getElementById('buscador-input');
+    var statusEl     = document.getElementById('buscador-status');
+    var resultsEl    = document.getElementById('buscador-results');
+    var headerEl     = document.getElementById('buscador-results-header');
+    var queryLabelEl = document.getElementById('buscador-query-label');
+    var emptyStateEl = document.getElementById('buscador-empty-state');
+
+    /* ── helpers ── */
+    function esc(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function fmt(n) {
+      return Number(n).toLocaleString('es-ES');
+    }
+
+    function stars(rating) {
+      var r    = parseFloat(rating) || 0;
+      var full = Math.floor(r);
+      var half = (r - full) >= 0.5 ? 1 : 0;
+      var empty = 5 - full - half;
+      var html = '';
+      for (var i = 0; i < full;  i++) html += '<i class="fas fa-star"           aria-hidden="true"></i>';
+      if (half)                        html += '<i class="fas fa-star-half-alt"  aria-hidden="true"></i>';
+      for (var j = 0; j < empty; j++) html += '<i class="far fa-star"           aria-hidden="true"></i>';
+      return html;
+    }
+
+    function getQ() {
+      return new URLSearchParams(location.search).get('q') || '';
+    }
+
+    function showStatus(html) {
+      statusEl.innerHTML = html;
+      statusEl.style.display = 'block';
+    }
+
+    function hideStatus() {
+      statusEl.style.display = 'none';
+    }
+
+    /* ── normalise item from any PAAPI / worker format ── */
+    function normalise(item) {
+      var title  = item.title  || item.Title  || (item.ItemInfo && item.ItemInfo.Title && item.ItemInfo.Title.DisplayValue) || 'Producto sin título';
+      var image  = item.image  || item.Image  || (item.Images  && item.Images.Primary  && (item.Images.Primary.Large || item.Images.Primary.Medium || item.Images.Primary.Small) && ((item.Images.Primary.Large || item.Images.Primary.Medium || item.Images.Primary.Small).URL)) || '';
+      var price  = item.price  || item.Price  || (item.Offers  && item.Offers.Listings && item.Offers.Listings[0] && item.Offers.Listings[0].Price && item.Offers.Listings[0].Price.DisplayAmount) || '';
+      var asin   = item.ASIN   || item.asin   || '';
+      var url    = item.url    || item.URL    || item.detailPageURL || item.DetailPageURL || (asin ? 'https://www.amazon.es/dp/' + asin : '');
+      var rating = item.rating || (item.CustomerReviews && item.CustomerReviews.StarRating && item.CustomerReviews.StarRating.Value) || '';
+      var count  = item.reviewCount || item.totalReviewCount || (item.CustomerReviews && item.CustomerReviews.Count) || '';
+
+      /* append affiliate tag if missing */
+      if (url && url.indexOf('tag=') === -1) {
+        url += (url.indexOf('?') !== -1 ? '&' : '?') + 'tag=' + TAG;
+      }
+
+      return { title: title, image: image, price: price, url: url, rating: rating, count: count };
+    }
+
+    /* ── render ── */
+    function render(items) {
+      resultsEl.innerHTML = '';
+
+      if (!items || !items.length) {
+        showStatus('<p class="text-muted fs-5"><i class="fas fa-box-open me-2"></i>No se encontraron productos. Prueba con otras palabras.</p>');
+        headerEl.style.display = 'none';
+        return;
+      }
+
+      hideStatus();
+      headerEl.style.display = 'block';
+
+      items.forEach(function (raw, i) {
+        var p = normalise(raw);
+
+        var imgHtml = p.image
+          ? '<img src="' + esc(p.image) + '" alt="' + esc(p.title) + '" class="buscador-product-img" loading="lazy" decoding="async">'
+          : '<div class="buscador-no-img"><i class="fas fa-box fa-3x text-muted" aria-hidden="true"></i></div>';
+
+        var ratingHtml = p.rating
+          ? '<div class="buscador-stars" aria-label="Valoración ' + esc(p.rating) + ' de 5">' + stars(p.rating) + '<span class="buscador-stars-label">' + esc(p.rating) + (p.count ? ' <span class="text-muted">(' + fmt(p.count) + ')</span>' : '') + '</span></div>'
+          : '';
+
+        var priceHtml = p.price
+          ? '<p class="buscador-price">' + esc(p.price) + '</p>'
+          : '';
+
+        var badgeHtml = i < 3
+          ? '<span class="buscador-rank-badge" aria-label="Posición ' + (i+1) + '">#' + (i+1) + '</span>'
+          : '';
+
+        var card = [
+          '<div class="col-12 col-sm-6 col-xl-4">',
+          '  <article class="buscador-card h-100">',
+          '    <div class="buscador-img-wrap">',
+          '      ' + badgeHtml,
+          '      <a href="' + esc(p.url) + '" target="_blank" rel="nofollow noopener noreferrer" aria-label="Ver ' + esc(p.title) + ' en Amazon" tabindex="-1">',
+          '        ' + imgHtml,
+          '      </a>',
+          '    </div>',
+          '    <div class="buscador-card-body">',
+          '      <h2 class="buscador-product-title">',
+          '        <a href="' + esc(p.url) + '" target="_blank" rel="nofollow noopener noreferrer">' + esc(p.title) + '</a>',
+          '      </h2>',
+          '      ' + ratingHtml,
+          '      ' + priceHtml,
+          '      <a href="' + esc(p.url) + '" class="btn-amazon w-100 justify-content-center mt-auto" target="_blank" rel="nofollow noopener noreferrer" aria-label="Comprar en Amazon">',
+          '        <i class="fas fa-shopping-cart me-1" aria-hidden="true"></i> Ver en Amazon',
+          '      </a>',
+          '    </div>',
+          '  </article>',
+          '</div>'
+        ].join('\n');
+
+        resultsEl.insertAdjacentHTML('beforeend', card);
+      });
+    }
+
+    /* ── fetch ── */
+    function search(q) {
+      q = q.trim();
+      if (!q) return;
+
+      input.value = q;
+      emptyStateEl.style.display = 'none';
+      headerEl.style.display     = 'none';
+      resultsEl.innerHTML        = '';
+
+      showStatus(
+        '<div class="d-flex align-items-center justify-content-center gap-3">' +
+        '  <div class="spinner-border text-success" role="status" aria-hidden="true"></div>' +
+        '  <span class="text-muted fs-5">Buscando productos en Amazon…</span>' +
+        '</div>'
+      );
+
+      history.replaceState(null, '', '?q=' + encodeURIComponent(q));
+      queryLabelEl.innerHTML = 'Resultados para: <strong>' + esc(q) + '</strong>';
+
+      fetch(WORKER + '?q=' + encodeURIComponent(q))
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (data) {
+          var items = Array.isArray(data)
+            ? data
+            : (data.items || data.Items || (data.SearchResult && data.SearchResult.Items) || []);
+          render(items);
+        })
+        .catch(function (err) {
+          showStatus(
+            '<p class="text-danger fs-5"><i class="fas fa-exclamation-triangle me-2"></i>' +
+            'Error al conectar con Amazon. Inténtalo de nuevo en unos segundos.</p>'
+          );
+          console.error('[buscador]', err);
+        });
+    }
+
+    /* ── events ── */
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      search(input.value);
+    });
+
+    document.querySelectorAll('.buscador-suggestion').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        search(this.dataset.q);
+      });
+    });
+
+    /* ── auto-search on page load ── */
+    var initialQ = getQ();
+    if (initialQ) {
+      search(initialQ);
+    } else {
+      emptyStateEl.style.display = 'block';
+      input.focus();
+    }
+
+  })();
+  </script>
+
+</body>
+</html>

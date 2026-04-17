@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top7productos</title>
+    <style>
+
+    .product {
+      background: white;
+      
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0066c0;
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/7.png">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+<!-- ============================================
+     1) BARRA SUPERIOR: EMAIL + ICONOS SOCIALES
+   ============================================ -->
+<nav class="navbar bg-dark navbar-dark py-2" id="templatemo_nav_top">
+  <div class="container d-flex align-items-center">
+    <!-- EMAIL -->
+    <div class="d-flex align-items-center">
+      <i class="fas fa-envelope nav-icon-top"></i>
+      <a href="mailto:info@top7productos.com" class="nav-link-top">
+        info@top7productos.com
+      </a>
+    </div>
+    <!-- ICONOS SOCIALES ALINEADOS A LA DERECHA -->
+    <div class="ms-auto d-flex align-items-center">
+      <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f nav-icon-top"></i>
+      </a>
+      <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-instagram nav-icon-top"></i>
+      </a>
+      <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-twitter nav-icon-top"></i>
+      </a>
+      <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin nav-icon-top"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================
+     HEADER PRINCIPAL: LOGO + MENÚ COLAPSABLE + BÚSQUEDA
+   ============================================ -->
+<header id="templatemo_main_header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container header-flex d-flex align-items-center justify-content-between">
+
+      <!-- 1) LOGO (siempre visible) -->
+      <div class="logo-wrapper">
+        <a href="/" class="d-flex align-items-center">
+          <img
+            src="/assets/img/logo5.png"
+            alt="Logo Top 7 Productos"
+            class="logo-navbar"
+          />
+        </a>
+      </div>
+
+      <!-- 2) BOTÓN TOGGLER (visible en pantallas < lg) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCategories"
+        aria-controls="navbarCategories"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3) MENÚ COLAPSABLE -->
+      <div
+        class="collapse navbar-collapse w-100 justify-content-center"
+        id="navbarCategories"
+      >
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+          </li>
+          <li class="nav-item">
+            <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+          </li>
+          <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a href="buscador.html" class="nav-link nav-link-buscador fs-5">
+              <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+            </a>
+          </li>
+        </ul>
+        <!-- ÍCONO DE BÚSQUEDA DENTRO DEL COLLAPSE (solo en pantallas < lg) -->
+        <div class="d-lg-none d-flex justify-content-center mt-2">
+          <a href="#" class="nav-link">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) ÍCONO DE BÚSQUEDA (visible en pantallas ≥ lg) -->
+      <div class="search-wrapper d-none d-lg-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-search fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+    <!-- Modal -->
+<!-- … (tu modal de búsqueda se queda igual) … -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="w-100 pt-1 mb-5 text-right">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+        <button type="submit" class="input-group-text bg-success text-light">
+          <i class="fa fa-fw fa-search text-white"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- … Fin del modal de búsqueda … -->
+
+<!---------------------------------- CONTENIDO -------------------------------------------------------------------- -->
+
+<div class="container my-4">
+  <div class="row">
+    <!-- En pantallas grandes ocupa 8 columnas y se centra -->
+    <div class="col-12 col-lg-8 mx-auto">
+              <!-- 1) Rollei Actioncam 9s Plus -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B081Q6MCDN?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/ROLLEI_ACTIONCAM_9S_PLUS.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Rollei Actioncam 9s Plus">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">1. Rollei Actioncam 9s Plus</h2>
+          <p class="mb-1"><strong>Marca:</strong> Rollei</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,2/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 3 842</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">154,50 €</span></p>
+          <p class="text-secondary mb-3">
+            Cámara deportiva 4K 60 fps con estabilización electrónica, pantalla selfie y resistencia hasta 10 m bajo el agua. Incluye mando a distancia y carcasa impermeable.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Resolución 4K con estabilización – Pantalla frontal para vlogging – Sumergible hasta 10 m.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Autonomía de batería limitada – Menú algo complejo en modo profesional – Accesorios básicos.
+          </p>
+          <a href="https://www.amazon.es/dp/B081Q6MCDN?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 2) WOLFANG Action Camera GA100 -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Deportiva-Baterías-Recargables-Compatible-WOLFANG/dp/B09TQMCNY7?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/WOLFANG_GA100.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="WOLFANG Action Camera GA100">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">2. WOLFANG Action Camera GA100</h2>
+          <p class="mb-1"><strong>Marca:</strong> WOLFANG</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,1/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 5 366</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">64,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Cámara 4K nativa con estabilizador EIS y doble micrófono. Sumergible hasta 40 m, incluye tarjeta microSD de 32 GB y mando a distancia.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Vídeo 4K/30 fps – Micrófono dual con cancelación de ruido – Impermeable hasta 40 m.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Calidad de audio mejorable en exteriores – Batería justa para sesiones largas – Menú algo lento.
+          </p>
+          <a href="https://www.amazon.es/Deportiva-Bater%C3%ADas-Recargables-Compatible-WOLFANG/dp/B09TQMCNY7?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 3) DJI Pack Esencial Osmo Action -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/DJI-Pack-Esencial-Osmo-Action/dp/B0DS2B3P2B?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/DJI_OSMO_ACTION.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="DJI Pack Esencial Osmo Action">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">3. DJI Pack Esencial Osmo Action</h2>
+          <p class="mb-1"><strong>Marca:</strong> DJI</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,3/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 287</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">249,00 €</span></p>
+          <p class="text-secondary mb-3">
+            Cámara de acción 4K con doble pantalla, estabilizador RockSteady y resistencia hasta 11 m bajo el agua. Incluye kit de batería adicional y accesorios básicos.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Doble pantalla para vlogging – Estabilización RockSteady muy eficaz – Diseño compacto y resistente.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Precio algo elevado – Autonomía limitada en 4K – Accesorios originales caros.
+          </p>
+          <a href="https://www.amazon.es/DJI-Pack-Esencial-Osmo-Action/dp/B0DS2B3P2B?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) GoPro HERO13 Black -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/GoPro-HERO13-Black-Resistente-compatibilidad/dp/B0DCQVQDQ7?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/GOPRO_HERO13_BLACK.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="GoPro HERO13 Black">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">4. GoPro HERO13 Black</h2>
+          <p class="mb-1"><strong>Marca:</strong> GoPro</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,7/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 8 540</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">429,00 €</span></p>
+          <p class="text-secondary mb-3">
+            Última generación de GoPro, vídeo 5.3K a 60 fps, estabilizador HyperSmooth 5.0 y resistente hasta 10 m sin carcasa. Incluye modos TimeWarp 3.0 y captura nocturna mejorada.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Vídeo 5.3K de gran calidad – Estabilización HyperSmooth líder en el mercado – Diseño robusto y sumergible.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Precio muy elevado – Batería puede drenarse rápido en 5.3K – Accesorios originales caros.
+          </p>
+          <a href="https://www.amazon.es/GoPro-HERO13-Black-Resistente-compatibilidad/dp/B0DCQVQDQ7?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 5) GoPro HERO11 Black -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/GoPro-HERO11-Black-Mini-estabilización/dp/B0BKNL3F92?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/GOPRO_HERO11_BLACK.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="GoPro HERO11 Black">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">5. GoPro HERO11 Black</h2>
+          <p class="mb-1"><strong>Marca:</strong> GoPro</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,6/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 7 210</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">349,00 €</span></p>
+          <p class="text-secondary mb-3">
+            Nuevo diseño con sensor 8:7, captura hasta 5.3K, estabilización HyperSmooth 4.0 y resistente hasta 10 m sin carcasa. Aptitud para vlogging con ajustes automáticos para retratos.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Vídeo de alta resolución con gran campo de visión – HyperSmooth 4.0 muy estable – Interfaz intuitiva.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Menos modular que la serie 13 – Precio todavía alto – Batería mejorable en 4K.
+          </p>
+          <a href="https://www.amazon.es/GoPro-HERO11-Black-Mini-estabilización/dp/B0BKNL3F92?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 6) Cámara Deportiva Videocámara Antivibración Subacuática -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Deportiva-Videoc%C3%A1mara-Antivibraci%C3%B3n-Subacu%C3%A1tica-Accesorios/dp/B0DFC3ZK6Q?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/VIDEOCAMARA_DEPORTIVA_SUBACUATICA.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Cámara Deportiva Videocámara Antivibración Subacuática">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">6. Cámara Deportiva Videocámara Antivibración Subacuática</h2>
+          <p class="mb-1"><strong>Marca:</strong> Genérica</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,0/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 102</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">79,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Cámara de acción 4K con sistema antivibración y carcasa sumergible hasta 30 m. Incluye accesorios para montaje en casco, manillar y superficies planas.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Accesorios variados incluidos – Estabilización básica – Sumergible hasta 30 m.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Calidad de imagen media en condiciones de poca luz – Interfaz algo lenta – Batería de corta duración.
+          </p>
+          <a href="https://www.amazon.es/Deportiva-Videoc%C3%A1mara-Antivibraci%C3%B3n-Subacu%C3%A1tica-Accesorios/dp/B0DFC3ZK6Q?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 7) Surfola SF630 Subacuática Impermeable Videocámara -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Surfola-SF630-subacu%C3%A1tica-Impermeable-Videoc%C3%A1mara/dp/B0D2MZKRRL?tag=top7product0d-21" target="_blank" rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/SURFOLA_SF630.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Surfola SF630 Subacuática Impermeable Videocámara">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">7. Surfola SF630 Subacuática Videocámara</h2>
+          <p class="mb-1"><strong>Marca:</strong> Surfola</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,1/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 843</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">129,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Videocámara 4K para deportes acuáticos, resistente hasta 30 m sin carcasa adicional. Incluye estabilización digital y kit de montaje para casco y manillar.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Buen rendimiento bajo el agua – Estabilización digital – Accesorios completos incluidos.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Calidad de audio limitada – Menú en inglés – Batería de autonomía media.
+          </p>
+          <a href="https://www.amazon.es/Surfola-SF630-subacu%C3%A1tica-Impermeable-Videoc%C3%A1mara/dp/B0D2MZKRRL?tag=top7product0d-21"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+       
+
+        
+        
+    </div>
+  </div>
+</div>
+
+<!-- Start Footer -->
+<footer id="tempaltemo_footer">
+  <!-- 1) Este div ocupa 100% del ancho con fondo negro -->
+  <div class="container-fluid bg-dark text-light">
+    <!-- 2) Dentro, centramos el contenido en un container fijo -->
+    <div class="container py-5">
+      <!-- 3) Fila centrada: usamos justify-content-center -->
+      <div class="row justify-content-center">
+        
+        <!-- Columna 1: Top7productos + datos de contacto (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Top7productos
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+              Andorra la Vella
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-phone fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="tel:+376666666">
+                +376 666 666
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-envelope fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="mailto:info@top7productos.com">
+                info@top7productos.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Enlaces
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5">Inicio</a>
+              </li>          
+              <li class="nav-item">
+                <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+              </li>
+              <li class="nav-item">
+                <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+              </li>
+              <li class="nav-item">
+                <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+              </li>
+              <li class="nav-item">
+                <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+              </li>
+              <li class="nav-item">
+                <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+              </li>
+              <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Síguenos en redes (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Síguenos
+          </h2>
+          <ul class="list-unstyled d-flex mt-3 footer-icons-list">
+            <li class="me-3">
+              <a href="https://fb.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://instagram.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://twitter.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /end fila justify-content-center -->
+
+      <!-- 4) Línea divisoria y copyright -->
+      <div class="row">
+        <div class="col-12">
+          <hr class="border-light" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center text-light pt-3">
+          <small>&copy; 2024 Top7productos – Todos los derechos reservados.</small>
+        </div>
+      </div>
+      <!-- /end filas inferiores -->
+    </div>
+    <!-- /end container centrado -->
+  </div>
+  <!-- /end container-fluid que cubre 100% ancho -->
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>
+
+
+
+
+
+

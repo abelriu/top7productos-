@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top7productos</title>
+    <style>
+
+    .product {
+      background: white;
+      
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0066c0;
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/7.png">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+<!-- ============================================
+     1) BARRA SUPERIOR: EMAIL + ICONOS SOCIALES
+   ============================================ -->
+<nav class="navbar bg-dark navbar-dark py-2" id="templatemo_nav_top">
+  <div class="container d-flex align-items-center">
+    <!-- EMAIL -->
+    <div class="d-flex align-items-center">
+      <i class="fas fa-envelope nav-icon-top"></i>
+      <a href="mailto:info@top7productos.com" class="nav-link-top">
+        info@top7productos.com
+      </a>
+    </div>
+    <!-- ICONOS SOCIALES ALINEADOS A LA DERECHA -->
+    <div class="ms-auto d-flex align-items-center">
+      <a href="https://fb.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f nav-icon-top"></i>
+      </a>
+      <a href="https://instagram.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-instagram nav-icon-top"></i>
+      </a>
+      <a href="https://twitter.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-twitter nav-icon-top"></i>
+      </a>
+      <a href="https://linkedin.com/" class="nav-link-top" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin nav-icon-top"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================
+     HEADER PRINCIPAL: LOGO + MENÚ COLAPSABLE + BÚSQUEDA
+   ============================================ -->
+<header id="templatemo_main_header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container header-flex d-flex align-items-center justify-content-between">
+
+      <!-- 1) LOGO (siempre visible) -->
+      <div class="logo-wrapper">
+        <a href="/" class="d-flex align-items-center">
+          <img
+            src="/assets/img/logo5.png"
+            alt="Logo Top 7 Productos"
+            class="logo-navbar"
+          />
+        </a>
+      </div>
+
+      <!-- 2) BOTÓN TOGGLER (visible en pantallas < lg) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCategories"
+        aria-controls="navbarCategories"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3) MENÚ COLAPSABLE -->
+      <div
+        class="collapse navbar-collapse w-100 justify-content-center"
+        id="navbarCategories"
+      >
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+          </li>
+          <li class="nav-item">
+            <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+          </li>
+          <li class="nav-item">
+            <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+          </li>
+          <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          <li class="nav-item">
+            <a href="buscador.html" class="nav-link nav-link-buscador fs-5">
+              <i class="fas fa-search me-1" aria-hidden="true"></i>Buscador
+            </a>
+          </li>
+        </ul>
+        <!-- ÍCONO DE BÚSQUEDA DENTRO DEL COLLAPSE (solo en pantallas < lg) -->
+        <div class="d-lg-none d-flex justify-content-center mt-2">
+          <a href="#" class="nav-link">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) ÍCONO DE BÚSQUEDA (visible en pantallas ≥ lg) -->
+      <div class="search-wrapper d-none d-lg-block">
+        <a href="#" class="nav-link">
+          <i class="fas fa-search fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+    <!-- Modal -->
+<!-- … (tu modal de búsqueda se queda igual) … -->
+<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="w-100 pt-1 mb-5 text-right">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <form action="buscador.html" method="get" class="modal-content modal-body border-0 p-0">
+      <div class="input-group mb-2">
+        <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+        <button type="submit" class="input-group-text bg-success text-light">
+          <i class="fa fa-fw fa-search text-white"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- … Fin del modal de búsqueda … -->
+
+<!---------------------------------- CONTENIDO -------------------------------------------------------------------- -->
+
+<div class="container my-4">
+  <div class="row">
+    <!-- En pantallas grandes ocupa 8 columnas y se centra -->
+    <div class="col-12 col-lg-8 mx-auto">
+
+      <!-- 1) Pantalones Cortos de Trekking Para Hombre -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/dp/B09QLZ9H1Y?th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=a0a56362d1710841b26c26c5b186bd2f&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/PANT_TREKKING_1.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones Cortos de Trekking Para Hombre">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">1. Pantalones Cortos de Trekking Para Hombre</h2>
+          <p class="mb-1"><strong>Marca:</strong> Columbia (ejemplo)</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,4/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 254</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">39,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Estos pantalones cortos están diseñados para salidas de trekking y senderismo. Fabricados en tejido de secado rápido y con protección UV, ofrecen libertad de movimiento gracias al corte ergonómico y la cintura elástica ajustable. Disponen de bolsillos con cremallera para guardar objetos pequeños de forma segura.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Tejido transpirable y de secado rápido – Protección solar integrada – Bolsillos con cremallera para mayor seguridad.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> No impermeables – Talla algo justa en la entrepierna para piernas anchas – El tejido puede desgastarse tras uso intensivo.
+          </p>
+          <a href="https://www.amazon.es/dp/B09QLZ9H1Y?th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=a0a56362d1710841b26c26c5b186bd2f&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 2) Pantalones Multibolsillos QXURkut Para Hombre -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/QXURkut-Hombres-Multibolsillos-Pantalones-Trousers/dp/B0B617PNBL?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983281&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=ddb1e4b16b57c572e96e1d00f71993f9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/QXURKUT_PANT_MULTIBOLSILLOS.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones Multibolsillos QXURkut Para Hombre">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">2. Pantalones Multibolsillos QXURkut Para Hombre</h2>
+          <p class="mb-1"><strong>Marca:</strong> QXURkut</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,0/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 512</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">29,90 €</span></p>
+          <p class="text-secondary mb-3">
+            Pantalones de trekking cortos con múltiples bolsillos laterales y traseros. Fabricados en mezclilla resistente y ligeramente elástica, ofrecen movilidad y durabilidad. Cintura con botón y cremallera, además de trabillas para cinturón.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Gran capacidad de almacenamiento con cinco bolsillos – Tejido robusto y resistente – Ajuste cómodo gracias al ligero elasticismo.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Tejido algo pesado en climas cálidos – Corte más largo que otros modelos de trekking – Bolsillos con botones que pueden ser incómodos al arrodillarse.
+          </p>
+          <a href="https://www.amazon.es/QXURkut-Hombres-Multibolsillos-Pantalones-Trousers/dp/B0B617PNBL?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983281&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=ddb1e4b16b57c572e96e1d00f71993f9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 3) Bermuda Trekking Stretch VELILLA 103032S -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/VELILLA-103032S-Bermudas-Trekking-Stretch/dp/B0DBLZZ3J8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983300&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-7&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=0da431a7d0ea25c6f33dcf637a4d30db&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/VELILLA_BERMUDA_103032S.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Bermuda Trekking Stretch VELILLA 103032S">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">3. Bermuda Trekking Stretch VELILLA 103032S</h2>
+          <p class="mb-1"><strong>Marca:</strong> VELILLA</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,5/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 312</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">34,50 €</span></p>
+          <p class="text-secondary mb-3">
+            Bermuda de trekking de la línea Stretch, con tejido elástico que se adapta al cuerpo, panel trasero de aumento de flexibilidad y talle ergonómico. Incorpora cinturilla ajustable con botones y múltiples bolsillos con cierre de velcro.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Gran elasticidad y comodidad – Diseño específico para movimiento sin restricciones – Bolsillos seguros con cierre.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> No es resistente al agua – El ajuste puede quedar corto en personas muy altas – Color puede desteñir tras varios lavados.
+          </p>
+          <a href="https://www.amazon.es/VELILLA-103032S-Bermudas-Trekking-Stretch/dp/B0DBLZZ3J8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983300&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-7&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=0da431a7d0ea25c6f33dcf637a4d30db&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 4) Pantalones Cortos Columbia Para Senderismo -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Columbia-Pantalones-Cortos-Senderismo-Hombre/dp/B0C6C2T1SM?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983300&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-9&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=ac8fabb073d39baf1c896dceb1a96bb9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/COLUMBIA_PANT_CORTOS.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones Cortos Columbia Para Senderismo">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">4. Pantalones Cortos Columbia Para Senderismo</h2>
+          <p class="mb-1"><strong>Marca:</strong> Columbia</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,6/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 845</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">45,00 €</span></p>
+          <p class="text-secondary mb-3">
+            Pantalones cortos ligeros con tejido Omni-Wick de secado rápido y protección solar Omni-Shade. Ajuste con cintura elástica y cordón, bolsillos con cremallera y aberturas laterales para ventilación.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Transpirable y de secado rápido – Protección UV integrada – Ajuste cómodo con cordón.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Precio algo alto – No impermeables – Bolsillos profundos que pueden abultar al cargar muchos objetos.
+          </p>
+          <a href="https://www.amazon.es/Columbia-Pantalones-Cortos-Senderismo-Hombre/dp/B0C6C2T1SM?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9._-IVak_D8QzFfAcUkzZ6JyHEpocWCR3zCMMoIVTpLxgKPHgLxxKo2ldK5JFV5L-R0uHmy1x2As9K30z8L4fLHo_Nl0WWhal0XBbvYBnjLqb3W-6mWHZzngTSuq7XDQij5v10tzXgxHGlftGF7KikoMIG8r_Cr-RdCYyk8hjTLNOW4mwUK7-D630mC4CTByMU7McTNeVKSDSeXkVMq5XgaI-XhkhVS1bKd1Ex5Y75Cr21Mf-88CRGl0iwGmuzHTl93OHPS2KETAsjdPwyqfvpvLbJDd6HNfFNRN8n-3xEKVg.EHlxbOmdeKgtrgtHzQs2oe7ebAlJGmzTCwTRIzs8xgI&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983300&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031&rnid=96332055031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-9&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=ac8fabb073d39baf1c896dceb1a96bb9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 5) Pantalones Senderismo MoFiz Para Hombre -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/MoFiz-Pantalones-Senderismo-Acampada-Trekking/dp/B0DQV9JX3J?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983380&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=734bc54b1e99ae82f4428cdd1da19515&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/MOFIZ_PANT_SENDERISMO.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones Senderismo MoFiz Para Hombre">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">5. Pantalones Senderismo MoFiz Para Hombre</h2>
+          <p class="mb-1"><strong>Marca:</strong> MoFiz</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,1/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 198</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">27,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Pantalones convertibles en corto gracias a una cremallera en la rodilla. Resistente al viento y al agua ligera, con tejido elástico para mayor comodidad en rutas largas. Incluye bolsillos frontales y traseros con cierre de cremallera.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Versatilidad 2 en 1 – Tejido repelente al agua – Buen ajuste gracias al elasticismo.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Cremalleras en las rodillas pueden molestar al arrodillarse – No totalmente impermeables – Color disponible limitado.
+          </p>
+          <a href="https://www.amazon.es/MoFiz-Pantalones-Senderismo-Acampada-Trekking/dp/B0DQV9JX3J?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983380&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=734bc54b1e99ae82f4428cdd1da19515&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 6) Pantalones de Ciclismo Cycorld Transpirables -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Cycorld-Pantalones-ciclismo-transpirables-Primavera-verano/dp/B085VW27KC?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983430&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-10&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=b20a4c449e425ba430f677a64695795e&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/CYCORLD_PANT_CICLISMO.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones de Ciclismo Cycorld Transpirables">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">6. Pantalones de Ciclismo Cycorld Transpirables</h2>
+          <p class="mb-1"><strong>Marca:</strong> Cycorld</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,2/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 1 012</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">25,99 €</span></p>
+          <p class="text-secondary mb-3">
+            Pantalones de ciclismo ligeros hechos en tejido transpirable y de secado rápido. Corte ajustado con paneles elásticos laterales y refuerzo en la entrepierna para mayor comodidad en rutas largas. Reflectantes en parte trasera para mayor visibilidad.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Alta transpirabilidad y evacuación de sudor – Refuerzo acolchado en la entrepierna – Elementos reflectantes para seguridad nocturna.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> No aptos para uso en climas muy fríos – Ajuste muy ceñido que puede resultar incómodo al principio – Color negro que atrae calor en verano.
+          </p>
+          <a href="https://www.amazon.es/Cycorld-Pantalones-ciclismo-transpirables-Primavera-verano/dp/B085VW27KC?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon%2Bcorto%2Bhombre%2Btrekking&qid=1748983430&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon%2Bcorto%2Bhombre%2Btrekking%2Caps%2C112&sr=1-10&th=1&psc=1&linkCode=ll1&tag=top7product0d-21&linkId=b20a4c449e425ba430f677a64695795e&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+      <!-- 7) Pantalones Cortos Columbia Utility Para Senderismo -->
+      <div class="product border rounded shadow-sm bg-white mb-4">
+        <!-- Imagen -->
+        <div class="w-100 d-flex justify-content-center">
+          <a href="https://www.amazon.es/Columbia-Utility-Pantalones-Cortos-Senderismo/dp/B0C63H8846?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon+corto+hombre+trekking&psc=1&qid=1748983430&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon+corto+hombre+trekking%2Caps%2C112&sr=1-12&linkCode=ll1&tag=top7product0d-21&linkId=ccaca4d3b8c014f43712c3bfd2fb15a9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer">
+            <img
+              src="/assets/img/IMATGES/COLUMBIA_UTILITY_PANT_CORTOS.jpg"
+              class="img-fluid rounded-top"
+              style="max-width: 100%;"
+              alt="Pantalones Cortos Columbia Utility Para Senderismo">
+          </a>
+        </div>
+        <!-- Texto -->
+        <div class="p-4">
+          <h2 class="h4 mb-3" style="color: #222;">7. Pantalones Cortos Columbia Utility Para Senderismo</h2>
+          <p class="mb-1"><strong>Marca:</strong> Columbia</p>
+          <p class="mb-1"><strong>Valoración:</strong> 4,5/5&nbsp;|&nbsp;<strong>Opiniones:</strong> 702</p>
+          <p class="mb-3"><strong>Precio:</strong> <span style="color: #e47911;">37,50 €</span></p>
+          <p class="text-secondary mb-3">
+            Pantalones cortos Utility con tecnología Omni-Shade de protección solar y Omni-Wick de absorción de humedad. Paneles de ventilación laterales, bolsillos frontales con cremallera y cintura elástica con cordón.
+          </p>
+          <p class="text-secondary mb-3">
+            <strong>Pros:</strong> Protección UV y secado rápido – Ventilación extra en laterales – Ajuste cómodo con cintura elástica.
+          </p>
+          <p class="text-secondary mb-4">
+            <strong>Contras:</strong> Precio algo elevado – Corte más clásico que moderno – Bolsillos traseros pueden abrirse con esfuerzo.
+          </p>
+          <a href="https://www.amazon.es/Columbia-Utility-Pantalones-Cortos-Senderismo/dp/B0C63H8846?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KLH1KV0G8366&dib=eyJ2IjoiMSJ9.XEOd3t6bTE945mbS_-geX37lfK9-0nO6pS33-MnCnBCeG6Yn8wVJBkGp5Ya_l5DVZQXmH8KaHTOfjgimdCTAuv5E5wdvMR1uiRjaSJ_HEgk_H3HZT4HQmZtfsfuqoUXumnewvthSogaBs4NUagFuzmey0ej2jpYz8t2VsoD_xXC1aFfExzc6Kr3mCjPbrU_t60dgweyNxcCIlBDt2K-OvDul2avZJQ0NbNv1P6ckzuvumMgEV2ZqxxkZxhgV1x2HzerszV5iVBVwjAEN_-5uMuo2uazY_wVAmThpjBduCUs.wxLwHkEzAExFgbh6i9P-Q5RnBYrEH50AZGvUPSlTwAE&dib_tag=se&keywords=pantalon+corto+hombre+trekking&psc=1&qid=1748983430&refinements=p_85%3A20930978031%2Cp_n_feature_thirty-two_browse-bin%3A96332057031%2Cp_n_size_browse-vebin%3A4584213031&rnid=3075459031&rps=1&s=apparel&sprefix=pantalon+corto+hombre+trekking%2Caps%2C112&sr=1-12&linkCode=ll1&tag=top7product0d-21&linkId=ccaca4d3b8c014f43712c3bfd2fb15a9&language=es_ES&ref_=as_li_ss_tl"
+             target="_blank"
+             rel="nofollow noopener noreferrer"
+             class="btn btn-warning fw-bold">
+            Ver en Amazon →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Start Footer -->
+<footer id="tempaltemo_footer">
+  <!-- 1) Este div ocupa 100% del ancho con fondo negro -->
+  <div class="container-fluid bg-dark text-light">
+    <!-- 2) Dentro, centramos el contenido en un container fijo -->
+    <div class="container py-5">
+      <!-- 3) Fila centrada: usamos justify-content-center -->
+      <div class="row justify-content-center">
+        
+        <!-- Columna 1: Top7productos + datos de contacto (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Top7productos
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt fa-fw me-2"></i>
+              Andorra la Vella
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-phone fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="tel:+376666666">
+                +376 666 666
+              </a>
+            </li>
+            <li class="mb-2">
+              <i class="fa fa-envelope fa-fw me-2"></i>
+              <a class="text-decoration-none text-light" href="mailto:info@top7productos.com">
+                info@top7productos.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Enlaces
+          </h2>
+          <ul class="list-unstyled text-light footer-link-list mt-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5">Inicio</a>
+              </li>          
+              <li class="nav-item">
+                <a href="cocina.html" class="nav-link fs-5">Cocina</a>
+              </li>
+              <li class="nav-item">
+                <a href="zapatillas.html" class="nav-link fs-5">Zapatillas</a>
+              </li>
+              <li class="nav-item">
+                <a href="camaras.html" class="nav-link fs-5">Camaras Acción</a>
+              </li>
+              <li class="nav-item">
+                <a href="accesorios.html" class="nav-link fs-5">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a href="pantalones.html" class="nav-link fs-5">Pantalones</a>
+              </li>
+              <li class="nav-item">
+                <a href="hogar.html" class="nav-link fs-5">Productos hogar</a>
+              </li>
+              <li class="nav-item">
+            <a href="moda.html" class="nav-link fs-5">Moda</a>
+          </li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Síguenos en redes (ocupa 3 columnas) -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <h2 class="h2 text-success border-bottom pb-2 border-light">
+            Síguenos
+          </h2>
+          <ul class="list-unstyled d-flex mt-3 footer-icons-list">
+            <li class="me-3">
+              <a href="https://fb.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://instagram.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="me-3">
+              <a href="https://twitter.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="text-light fs-4" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /end fila justify-content-center -->
+
+      <!-- 4) Línea divisoria y copyright -->
+      <div class="row">
+        <div class="col-12">
+          <hr class="border-light" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center text-light pt-3">
+          <small>&copy; 2024 Top7productos – Todos los derechos reservados.</small>
+        </div>
+      </div>
+      <!-- /end filas inferiores -->
+    </div>
+    <!-- /end container centrado -->
+  </div>
+  <!-- /end container-fluid que cubre 100% ancho -->
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>
+
+
+
+
+
+
