@@ -20,9 +20,8 @@ jobs:
           username:   ${{ secrets.FTP_USER }}
           password:   ${{ secrets.FTP_PASS }}
           port:       21
-          local-dir:           ./Downloads/_public_html/
-          server-dir:          /public_html/
-          dangerous-clean-slate: true
+          local-dir:  ./Downloads/_public_html/
+          server-dir: /public_html/
           exclude: |
             **/.git*
             **/.git*/**
